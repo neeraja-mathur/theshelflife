@@ -1,0 +1,246 @@
+<!DOCTYPE.html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Showcase</title>
+    <style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        text-align:center;
+        font-size:100%;
+        max-width:100vw;
+    }
+
+    nav{
+        background-color: #f8f7f5;
+        width:100vw;
+        height:4vw;
+        margin:0;
+    }
+
+    nav a{
+        list-style-type: none;  
+        text-decoration: none;
+        color: #f19722;
+        margin-top: 1vw;
+    }
+
+    nav a:hover{
+        list-style-type: none;  
+        text-decoration: none;
+        color: #e72b44;
+        margin-top: 1vw;
+    }
+
+    nav ul li{
+        font-size: 1.2em;
+        font-weight: bold;
+        display: inline-flex;
+        padding-left: 1.5vw;
+        padding-right:1.5vw;
+        font-family: 'Montserrat', sans-serif;  
+    }
+
+    #company a{
+        color: #f19722;
+        text-shadow: 2px 2px #fad956;
+        font-size: 1.2em
+    }
+
+    #company a:hover{
+        color: #c33325;
+    }
+
+    .product-container{
+        display:inline-block;
+        position: relative;
+        width:70vw;    
+        height: 40vw;      
+        margin:3vw;
+    }
+
+    #latest{   
+        width:28vw;
+        height:5vw;
+        margin: 0px;
+        float: left;
+    }
+
+    #latest h1{
+        text-align:left;
+        font-size: 1.6em;
+        font-family: 'Montserrat', sans-serif;  
+        
+        color:#e72b44;
+    }
+
+    #latest p{
+        font-family: 'Lora', serif;
+        color:#545454;
+        font-size:1em;
+        text-align:left;
+        margin-bottom: 1vw;
+    }
+
+
+    button{
+        background-color: white;   
+        border-color: #009ea9;
+        padding: 0.8vw 2vw;
+        font-size: 1.2em;
+        font-family: 'Montserrat', sans-serif;  
+        border-radius: 50px;
+        box-shadow: 0px 2px 2px 0px  #b5b5b5;   
+        margin-bottom:1vw;  
+        margin-top: 0px;
+    }
+
+    button:hover{  
+        background-color: #009ea9; 
+        border-color: #009ea9;
+        color: white;
+        padding: 0.8vw 2vw;
+        font-size: 1.2em;
+        font-family: 'Montserrat', sans-serif;  
+        border-radius: 50px; 
+        box-shadow: 0px 5px 5px 0px  #b5b5b5;   
+        margin-bottom:1vw;  
+        margin-top: 0px;
+    }
+
+    button a{
+        text-decoration: none;
+        color: #009ea9;
+    }
+
+    button a:hover{
+        text-decoration: none;
+         color: white; 
+    }
+
+    #prod-1{
+        background-image: url("images/1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        width: 29vw;
+        margin-left: 1vw;
+        height:40vw;
+        font-family: 'Montserrat', sans-serif;  
+        float: right;
+        margin-top:0px;
+        box-shadow: 2px 2px 5px 0px  #b5b5b5; 
+    }
+
+    #prod-2{
+        background-image: url("images/3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 19vw;
+        height:22vw;
+        margin-right: 1vw;
+        float: left;
+        box-shadow: 2px 2px 5px 0px  #b5b5b5;
+    }
+
+    #prod-3{
+        background-image: url("images/8.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 19vw;
+        height:22vw;
+        margin-left: 0.5vw;
+        float: left;
+        box-shadow: 2px 2px 5px 0px  #b5b5b5;
+    }
+
+    #prod-4{        
+        background-image: url("images/11.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 39.5vw;
+        height:11.8vw;
+        margin-right: 1vw;       
+        margin-top:24vw;
+        box-shadow: 2px 2px 5px 0px  #b5b5b5;
+    }
+
+    footer{
+        background-color: #f8f7f5;
+        width:100vw;
+        height:3vw;
+        margin-top:1vw;
+    }
+
+    footer a{
+        list-style-type: none;  
+        text-decoration: none;
+        color: #545454;
+        margin-top: 1vw;
+    }
+
+    footer a:hover {
+        list-style-type: none;  
+        text-decoration: none;
+        color: #009ea9;
+        margin-top: 1vw;
+    }
+            
+    footer ul li{
+        font-size: 1em;
+        display: inline-flex;
+        padding-left: 1.5vw;
+        padding-right:1.5vw;
+        font-family: 'Montserrat', sans-serif;   
+    }
+   
+    </style>
+</head>
+<body> 	    
+    <nav>
+        <ul>
+        <li id = "company"><a href = "#">THE SHELF LIFE</a>
+        <li><a href = "showcase.html">SHOWCASE</a></li> 
+        <li><a href = "details.html">DETAILS</a></li> 
+        <li><a href = "contact.html">CONTACT</a></li> 
+        </ul>
+    </nav>	
+
+	<div class = "product-container">
+		<div id = "latest">
+			<h1>MAKE YOUR PICK!</h1>
+			<p> now enjoy your favourite titles in multiple styles and formats</p>		
+		</div>
+
+		<button><a href = "details.html">BUY NOW</a></button>
+
+		<div id = "prod-1">
+		</div>		
+
+		<div id = "prod-2">
+		</div>
+
+        <div id = "prod-3">
+        </div>
+
+
+        <div id = "prod-4">
+        </div>
+
+	</div>
+ 
+<footer>    
+    <ul>
+        <li><a href = "showcase.html">SHOWCASE</a></li> 
+        <li><a href = "details.html">DETAILS</a></li> 
+        <li><a href = "contact.html">CONTACT</a></li> 
+    </ul>
+</footer>
+</body>
+</html>
